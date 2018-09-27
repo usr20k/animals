@@ -28,6 +28,17 @@ public:
 
 };
 
+class Dog: public Animal
+{
+public:
+	Dog():
+
+	Animal("bork! bork! bork!")
+	{}
+
+	int GetPower() {return 100};
+}
+
 // Define your animals here
 
 #endif  // _ANIMAL_H_
