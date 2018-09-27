@@ -38,6 +38,16 @@ public:
 
 	int GetPower() {return 100};
 }
+class Bear : public Animal {
+public:
+	Bear():
+	Animal("ROAR")
+	{}
+
+
+	int GetPower() { return 9000; };
+
+};
 
 // Define your animals here
 
