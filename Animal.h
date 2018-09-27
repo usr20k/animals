@@ -28,6 +28,16 @@ public:
 
 };
 
+class Dog: public Animal
+{
+public:
+	Dog():
+
+	Animal("bork! bork! bork!")
+	{}
+
+	int GetPower() {return 100};
+}
 class Bear : public Animal {
 public:
 	Bear():
